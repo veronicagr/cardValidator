@@ -15,7 +15,7 @@ cardValidator(string);
 Exemplo de uso:
 
 $node
-> let convert = require("chayote-lib")
+> let numeroCartao = require("cardvalidator")
 > cardValidator('5232840484143290'); //'CARTÃO VÁLIDO!'
 
 # versão 1.0.0
