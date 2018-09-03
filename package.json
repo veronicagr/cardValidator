@@ -1,0 +1,25 @@
+{
+  "name": "cardvalidator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veronicagr/cardValidator.git"
+  },
+  "author": "veronicagr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veronicagr/cardValidator/issues"
+  },
+  "homepage": "https://github.com/veronicagr/cardValidator#readme",
+  "dependencies": {
+    "chai": "^4.1.2"
+  }
+}
