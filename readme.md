@@ -1,4 +1,4 @@
-#Validador de cartao v.1.0.0
+##Validador de cartao v.1.0.0
 
 Esta biblioteca  destina-se a validação de números de cartão de crédito para uso em aplicações web.
 
