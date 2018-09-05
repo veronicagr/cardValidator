@@ -16,7 +16,7 @@ Exemplo de uso:
 
 $node
 > let numeroCartao = require("cardvalidator")
-> cardValidator('5232840484143290'); //'CARTÃO VÁLIDO!'
+> cardValidator('5232840484143290'); //'True'
 
 # versão 1.0.0
 funcionalidades: Pode receber um numero ou  string númerica e realiza  validação;
