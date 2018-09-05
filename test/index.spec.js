@@ -3,30 +3,38 @@ const cardValidator = require('../index');
 
 describe('cardValidator()', function () {
     it('deve retornar cartão válido', () => {
-        assert.equal(cardValidator('5232840484143290'), 'CARTÃO VÁLIDO!');
+        assert.equal(cardValidator('5232840484143290'), 'true');
     });
 
     it('deve retornar cartão inválido', () => {
-        assert.equal(cardValidator('52328404841432901'), 'CARTÃO INVÁLIDO!');
+        assert.equal(cardValidator('52328404841432901'), 'false');
     });
 
     it('deve retornar cartão inválido', () => {
-        assert.equal(cardValidator('5290530003816927'), 'CARTÃO VÁLIDO!');
+        assert.equal(cardValidator('5290530003816927'), 'true');
     });
 
     it('deve retornar cartão inválido', () => {
-        assert.equal(cardValidator('5290530003816928'), 'CARTÃO INVÁLIDO!');
+        assert.equal(cardValidator('5290530003816928'), 'false');
     });
 
     it('deve retornar cartão válido', () => {
-        assert.equal(cardValidator('aaaaaaaaa'), 'CARTÃO INVÁLIDO!');
+        assert.equal(cardValidator('aaaaaaaaa'), 'false');
     });
 
     it('deve retornar cartão inválido', () => {
-        assert.equal(cardValidator(' '), 'CARTÃO INVÁLIDO!');
+        assert.equal(cardValidator(' '), 'false');
     });
 
     it('deve retornar cartão inválido', () => {
-        assert.equal(cardValidator('000dddddsss000'), 'CARTÃO INVÁLIDO!');
+        assert.equal(cardValidator('000dddddsss000'), 'false');
+    });
+
+    it('deve retornar cartão inválido', () => {
+        assert.equal(cardValidator('9'), 'false');
+    });
+
+    it('deve retornar cartão inválido', () => {
+        assert.equal(cardValidator('0000000000000000'), 'false');
     });
 });

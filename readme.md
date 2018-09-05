@@ -19,11 +19,12 @@ $node
 > cardValidator('5232840484143290'); //'CARTÃO VÁLIDO!'
 
 # versão 1.0.0
-funcionalidades: Pode receber um numro ou  string númerica e realiza  validação;
+funcionalidades: Pode receber um numero ou  string númerica e realiza  validação;
 
-você deverá ter o node + npm instalados. Para guia de instalação, visite o site oficial.
-proceda com a instalação com $npm install chayote-lib
-roadmap oficial do projeto
+você deverá ter o node + npm instalados. Para guia de instalação, visite [site oficial](https://www.npmjs.com/get-npm).
+proceda com a instalação com $npm install cardvalidatorversaoum
+
+# Roadmap oficial do projeto
 
 # versão 2.0.0 (previsão outubro/2018)
 correção de bugs não aceitar letras e números inferior ao permitido;
