@@ -26,7 +26,7 @@ function somaArray(arr) {
     return total;
 }
 
-module.exports = function cardValidator(string) {
+function cardValidator(string) {
 
     let stringReversa = inverteInput(string);
     let indicesParesMultiplica = multiplicaIndicesPares(stringReversa);
@@ -36,4 +36,6 @@ module.exports = function cardValidator(string) {
     } else {
         return "false";
     }
-};
+}
+
+module.exports = cardValidator;
