@@ -24,8 +24,8 @@ funcionalidades: Pode receber um numero ou  string númerica e realiza  validaç
 você deverá ter o node + npm instalados. Para guia de instalação, visite [site oficial](https://www.npmjs.com/get-npm).
 proceda com a instalação com $npm install cardvalidatorversaoum
 
-# Roadmap oficial do projeto
+### Roadmap oficial do projeto
 
-# versão 2.0.0 (previsão outubro/2018)
+### versão 2.0.0 (previsão outubro/2018)
 correção de bugs não aceitar letras e números inferior ao permitido;
 README translated to english;

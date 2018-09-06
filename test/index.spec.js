@@ -35,6 +35,6 @@ describe('cardValidator()', function () {
     });
 
     it('deve retornar cartão inválido', () => {
-        assert.equal(cardValidator('0000000000000000'), 'false');
+        assert.equal(cardValidator('999999999999999'), 'false');
     });
 });
